@@ -3,12 +3,14 @@ html, head, body, header, main, footer, p, div, h1, h3, section, img {
     margin: 0;
 }
 
+/* body */
 .body {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     padding: 3vw 7%;
 }
 
+/* header */
 .header {
     margin-bottom: 3vh;
 }
@@ -17,6 +19,7 @@ html, head, body, header, main, footer, p, div, h1, h3, section, img {
     margin-bottom: 3vh;
 }
 
+/* title */
 .title {
     text-align: center;
     color: hsl(229, 6%, 66%);
@@ -30,6 +33,7 @@ html, head, body, header, main, footer, p, div, h1, h3, section, img {
     color: hsl(234, 12%, 34%);
 }
 
+/* text */
 .text--centered {
     text-align: center;
 }
@@ -38,7 +42,12 @@ html, head, body, header, main, footer, p, div, h1, h3, section, img {
     color: hsl(229, 6%, 66%);
 }
 
+/* main */
 .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 60px;
 }
 
@@ -48,13 +57,7 @@ html, head, body, header, main, footer, p, div, h1, h3, section, img {
     }
 }
 
-.main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
+/* card container */
 .card-container {
     display: flex;
     flex-direction: column;
@@ -72,6 +75,8 @@ html, head, body, header, main, footer, p, div, h1, h3, section, img {
     }
 }
 
+
+/* card */
 .card {
     display: flex;
     flex-direction: column;
@@ -113,6 +118,7 @@ html, head, body, header, main, footer, p, div, h1, h3, section, img {
     margin-top: 25px;
 }
 
+/* footer */
 .footer {
     text-align: right;
     margin-top: 30px;
